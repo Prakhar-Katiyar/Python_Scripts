@@ -5,7 +5,7 @@ from PIL import Image
 import argparse
 
 def main(Target_dir):
-    #Target_dir = "Desktop"
+    #Target_dir = "Power BI"
     os.chdir(Target_dir)
 
     files = os.listdir(".")
